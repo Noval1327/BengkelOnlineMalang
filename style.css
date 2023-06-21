@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.tengah {
+    text-align: center;
+}
+.hitem {
+    background-color:black;
+}
+
+.main-color {
+    background-color:  #1c9c76;
+}
+
+.sec-color {
+    background-color: #89D289;
+    border: none;
+}
+
+.sec-color:hover {
+    background-color: #5F8C5F;
+}
+
+.ukuran {
+    min-height: 370px;
+}
+ 
+.style-button {
+    width: 140px; 
+    height: 55px; 
+    border-radius: 10px
+}
+.font-color {
+    color: rgb(109, 109, 109);
+}
+
+h1:last-child::after {
+    color: white;
+}
+
+.border-radius {
+    border-radius: 13px;
+}
+
+.imag {
+    min-height: 150px;
+    min-width: 150px;
+
+}
+
+.bton:hover{
+    background-color: #1c9c76 ;
+    border: 1px solid black;
+    color: black !important; 
+}
+
+.color-end ::first-line {
+    color: chartreuse;
+}
+
+
+.bayang {
+-webkit-box-shadow: 0px 0px 7px 0.5px rgb(179, 168, 179);
+-moz-box-shadow: 0px 0px 7px 0.5px rgba(179, 168, 179);
+box-shadow: 0px 0px 7px 0.5px rgba(179, 168, 179);
+
+}
+
+.shadow-square {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.card:hover {
+    border: 3px solid rgb(0, 0, 0);
+    transition: 0.5s;
+    transition-timing-function: ease;
+}
+
+.card {
+    border: 3px solid  rgb(255, 255, 255);
+}
+
+.delete-a{
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,120 @@
+/* style sidebar */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+body {
+	background-image: linear-gradient(#084459,white 50%);
+	font-family: "Poppins", sans-serif;
+}
+
+.container {
+	display: flex;
+	width: 80%;
+	/* height: 600px; */
+
+	margin: 50px auto;
+	justify-content: space-between;
+	/* background-image: linear-gradient(#084459,white 50%); */
+}
+
+.right_content {
+	flex-basis: 80%;
+	align-items: center;
+}
+
+.navbar {
+	/* display: flex; */
+	/* justify-content: space-between; */
+	height: 10%;
+	/* background-image: url(../Gambar/background\ merah.jpg); */
+	box-shadow: 0 6px 12px 4px rgba(0, 0, 0, 0.15);
+	border-radius: 10px;
+	padding: 10px;
+	margin-bottom: 30px;
+}
+.navbar img {
+	margin-top: -27px;
+    height: 90px;
+    width: 90px;
+}
+
+.btn {
+	background-color: #ff0000;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 10px;
+	font-size: 15px;
+	cursor: pointer;
+	color: black;
+	margin-top: 10px;
+
+}
+
+.btn a {
+	text-decoration: none;
+	color: black;
+}
+
+.btn-tambah {
+	margin: 20px 0 0 40px;
+}
+
+.btn-simpan {
+	width: 100%;
+}
+.btn:hover {
+	background-color: ff0000;
+}
+
+.content {
+    /* background-image: url(../Gambar/bacground\ putih.jpg); */
+    background: cover;
+    box-shadow: 0 6px 12px 4px #00000026;
+    height: 100%;
+    border-radius: 10px;
+    padding: 20px;
+    overflow: auto;
+	margin-left: 140px;
+}
+
+/* style for table */
+.table-data {
+	text-align: center;
+	margin: 20px auto;
+}
+
+th,
+td {
+	border: 1px solid black;
+	padding: 5px 20px;
+}
+
+/* style for form input */
+.form-login {
+
+	/* display: flex; */
+	width: 90%;
+	background-color: white;
+	padding: 20px;
+	margin: 0 auto;
+	box-shadow: 0 6px 12px 4px rgba(0, 0, 0, 0.15);
+	border-radius: 10px;
+}
+
+.input {
+	width: 100%;
+	margin: 10px 0;
+	padding: 10px;
+	border-radius: 10px;
+	border: 1px solid rgb(148, 148, 148);
+}
+
+.text {
+
+	margin-bottom: 30px;
+	text-align: center;
+}
